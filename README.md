@@ -1,4 +1,4 @@
 PeaceLights
 ===========
 
-First commit!
+PeaceLights is secret... for now.
