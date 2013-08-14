@@ -1,4 +1,4 @@
-update=8/13/2013 11:04:20 PM
+update=8/13/2013 11:46:44 PM
 version=1
 last_client=cvpcb
 [pcbnew]
@@ -38,6 +38,7 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=con-usb
+LibName18=hackrf
 LibDir=
 [general]
 version=1
@@ -81,6 +82,7 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=con-usb
+LibName32=hackrf
 [cvpcb]
 version=1
 NetIExt=net
