@@ -2,4 +2,5 @@ Hardware:
 	Microcontroller
 	Breakout pins for each uC pin (except crystal ones?)
 	USB port for power
+		Some easy way to split pixel power to separate line
 	Vias for bus and power going to pixels, for easy modularizability (IT"S A WORD!)

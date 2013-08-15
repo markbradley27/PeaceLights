@@ -1,6 +1,6 @@
-update=8/13/2013 11:46:44 PM
+update=8/14/2013 10:38:07 PM
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -42,6 +42,11 @@ LibName18=hackrf
 LibDir=
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -81,10 +86,5 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=con-usb
-LibName32=hackrf
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName31=hackrf
+LibName32=ws2811-cache

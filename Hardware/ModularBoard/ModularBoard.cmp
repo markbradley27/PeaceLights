@@ -1,4 +1,18 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 8/13/2013 11:47:30 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 8/14/2013 7:38:43 PM
+
+BeginCmp
+TimeStamp = /520C39AB;
+Reference = C1;
+ValeurCmp = CP1;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /520C39C9;
+Reference = C2;
+ValeurCmp = CP1;
+IdModule  = SM0603;
+EndCmp
 
 BeginCmp
 TimeStamp = /520B10CA;
@@ -12,6 +26,20 @@ TimeStamp = /520B2785;
 Reference = J1;
 ValeurCmp = GSG-USB-MICRO-B;
 IdModule  = GSG-USB-MICROB-FCI-10103594;
+EndCmp
+
+BeginCmp
+TimeStamp = /520C3AD9;
+Reference = P1;
+ValeurCmp = CONN_3X2;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /520C388B;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = HC-49V;
 EndCmp
 
 EndListe
