@@ -1,6 +1,6 @@
-update=8/14/2013 10:38:07 PM
+update=8/16/2013 10:22:27 PM
 version=1
-last_client=eeschema
+last_client=cvpcb
 [pcbnew]
 version=1
 LastNetListRead=
@@ -37,20 +37,15 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-LibName17=con-usb
-LibName18=hackrf
+LibName17=hackrf
+LibName18=guan
 LibDir=
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -87,4 +82,9 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=hackrf
-LibName32=ws2811-cache
+LibName32=guan
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 8/14/2013 7:38:43 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 8/16/2013 11:41:40 PM
 
 BeginCmp
 TimeStamp = /520C39AB;
@@ -15,8 +15,50 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /520B10CA;
+TimeStamp = /520F04EE;
+Reference = GS1;
+ValeurCmp = GS2;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /520F04FD;
+Reference = GS2;
+ValeurCmp = GS2;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /520C6992;
 Reference = IC1;
+ValeurCmp = WS2811-5050;
+IdModule  = WS2811-5050;
+EndCmp
+
+BeginCmp
+TimeStamp = /520C69AE;
+Reference = IC2;
+ValeurCmp = WS2811-5050;
+IdModule  = WS2811-5050;
+EndCmp
+
+BeginCmp
+TimeStamp = /520C69BD;
+Reference = IC3;
+ValeurCmp = WS2811-5050;
+IdModule  = WS2811-5050;
+EndCmp
+
+BeginCmp
+TimeStamp = /520C69CC;
+Reference = IC4;
+ValeurCmp = WS2811-5050;
+IdModule  = WS2811-5050;
+EndCmp
+
+BeginCmp
+TimeStamp = /520B10CA;
+Reference = IC5;
 ValeurCmp = ATTINY85-P;
 IdModule  = DIP-8__300;
 EndCmp
@@ -26,6 +68,34 @@ TimeStamp = /520B2785;
 Reference = J1;
 ValeurCmp = GSG-USB-MICRO-B;
 IdModule  = GSG-USB-MICROB-FCI-10103594;
+EndCmp
+
+BeginCmp
+TimeStamp = /520C70B2;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /520F01D3;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /520C704E;
+Reference = K3;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /520F01E2;
+Reference = K4;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
