@@ -1,6 +1,6 @@
-update=8/16/2013 10:22:27 PM
+update=8/17/2013 12:13:07 AM
 version=1
-last_client=cvpcb
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -40,8 +40,6 @@ LibName16=valves
 LibName17=hackrf
 LibName18=guan
 LibDir=
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -88,3 +86,5 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1
