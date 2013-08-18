@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "17 aug 2013"
+Date "18 aug 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -202,27 +202,25 @@ $EndComp
 $Comp
 L +5V #PWR06
 U 1 1 520C3AF8
-P 6250 6200
-F 0 "#PWR06" H 6250 6290 20  0001 C CNN
-F 1 "+5V" H 6250 6290 30  0000 C CNN
-F 2 "" H 6250 6200 60  0000 C CNN
-F 3 "" H 6250 6200 60  0000 C CNN
-	1    6250 6200
+P 6100 6000
+F 0 "#PWR06" H 6100 6090 20  0001 C CNN
+F 1 "+5V" H 6100 6090 30  0000 C CNN
+F 2 "" H 6100 6000 60  0000 C CNN
+F 3 "" H 6100 6000 60  0000 C CNN
+	1    6100 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR07
 U 1 1 520C3B1A
-P 6400 6250
-F 0 "#PWR07" H 6400 6250 30  0001 C CNN
-F 1 "GND" H 6400 6180 30  0001 C CNN
-F 2 "" H 6400 6250 60  0000 C CNN
-F 3 "" H 6400 6250 60  0000 C CNN
-	1    6400 6250
+P 6100 6300
+F 0 "#PWR07" H 6100 6300 30  0001 C CNN
+F 1 "GND" H 6100 6230 30  0001 C CNN
+F 2 "" H 6100 6300 60  0000 C CNN
+F 3 "" H 6100 6300 60  0000 C CNN
+	1    6100 6300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5900 6050 6400 6050
 Text Label 4350 4400 0    60   ~ 0
 RESET
 Wire Wire Line
@@ -233,8 +231,6 @@ Wire Wire Line
 	4250 4300 4550 4300
 Wire Wire Line
 	4900 6050 5100 6050
-Text Label 4900 6050 0    60   ~ 0
-RESET
 Wire Wire Line
 	4550 3900 4350 3900
 Text Label 4350 3900 0    60   ~ 0
@@ -249,8 +245,6 @@ Text Label 5900 6150 0    60   ~ 0
 MOSI
 Wire Wire Line
 	5100 6250 4900 6250
-Text Label 4900 6250 0    60   ~ 0
-MISO
 Wire Wire Line
 	5100 6150 4900 6150
 Text Label 4900 6150 0    60   ~ 0
@@ -259,12 +253,6 @@ Wire Wire Line
 	4550 4100 4350 4100
 Text Label 4350 4100 0    60   ~ 0
 SCK
-Wire Wire Line
-	6400 6050 6400 6250
-Wire Wire Line
-	5900 6250 6250 6250
-Wire Wire Line
-	6250 6250 6250 6200
 $Comp
 L WS2811-5050 IC1
 U 1 1 520C6992
@@ -631,4 +619,16 @@ F 3 "" H 4900 5400 60  0000 C CNN
 	1    4900 5400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5900 6250 6100 6250
+Wire Wire Line
+	6100 6250 6100 6300
+Wire Wire Line
+	5900 6050 6100 6050
+Wire Wire Line
+	6100 6050 6100 6000
+Text Label 4900 6050 0    60   ~ 0
+MISO
+Text Label 4900 6250 0    60   ~ 0
+RESET
 $EndSCHEMATC

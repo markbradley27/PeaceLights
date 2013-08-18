@@ -393,8 +393,6 @@ Wire Wire Line
 	5150 5500 4900 5500
 Wire Wire Line
 	5150 5600 4900 5600
-Text Label 4900 5400 0    60   ~ 0
-VCC
 Text Label 4900 5600 0    60   ~ 0
 GND
 Text Label 4900 5500 0    60   ~ 0
@@ -622,4 +620,15 @@ Text Label 6450 5000 0    60   ~ 0
 VDD
 Text Label 6450 5100 0    60   ~ 0
 VCC
+$Comp
+L +5V #PWR?
+U 1 1 520F1FA0
+P 4900 5400
+F 0 "#PWR?" H 4900 5490 20  0001 C CNN
+F 1 "+5V" H 4900 5490 30  0000 C CNN
+F 2 "" H 4900 5400 60  0000 C CNN
+F 3 "" H 4900 5400 60  0000 C CNN
+	1    4900 5400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
