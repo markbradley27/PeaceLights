@@ -385,12 +385,8 @@ Text Label 4900 5600 0    60   ~ 0
 GND
 Text Label 4900 5500 0    60   ~ 0
 RESET
-Text Label 4900 5000 0    60   ~ 0
-MOSI
 Text Label 4900 5100 0    60   ~ 0
 MISO
-Text Label 4900 5200 0    60   ~ 0
-SCK
 $Comp
 L VDD #PWR09
 U 1 1 520EFC85
@@ -631,4 +627,8 @@ Text Label 4900 6050 0    60   ~ 0
 MISO
 Text Label 4900 6250 0    60   ~ 0
 RESET
+Text Label 4900 5200 0    60   ~ 0
+MOSI
+Text Label 4900 5000 0    60   ~ 0
+SCK
 $EndSCHEMATC
