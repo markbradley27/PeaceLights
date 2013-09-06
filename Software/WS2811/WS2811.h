@@ -31,7 +31,7 @@ typedef struct __attribute__ ((__packed__)) {
  * r27 = inner loop counter
  */
 #define WS2811(PORT, PIN, RGB, LEN) \
-asm volatile( \
+__asm volatile( \
 /* initialise */ \
 "    cp %A[len], r1      ; check len > 0, return immediately if it is\n" \
 "    cpc %B[len], r1\n" \
