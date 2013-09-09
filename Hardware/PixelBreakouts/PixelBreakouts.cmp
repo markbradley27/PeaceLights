@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/8/2013 4:19:12 PM
+
+BeginCmp
+TimeStamp = /522CF8F4;
+Reference = IC1;
+ValeurCmp = WS2811-5050;
+IdModule  = WS2811-5050;
+EndCmp
+
+BeginCmp
+TimeStamp = /522CFB92;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /522CFBA3;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+EndListe
