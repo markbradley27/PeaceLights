@@ -1,0 +1,87 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/9/2013 11:27:38 PM
+
+BeginCmp
+TimeStamp = /520C39AB;
+Reference = C1;
+ValeurCmp = CP1;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /520C39C9;
+Reference = C2;
+ValeurCmp = CP1;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /520B10CA;
+Reference = IC5;
+ValeurCmp = ATTINY85-P;
+IdModule  = DIP-8__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /520B2785;
+Reference = J1;
+ValeurCmp = GSG-USB-MICRO-B;
+IdModule  = GSG-USB-MICROB-FCI-10103594;
+EndCmp
+
+BeginCmp
+TimeStamp = /520C70B2;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /520C704E;
+Reference = K3;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /520C3AD9;
+Reference = P1;
+ValeurCmp = CONN_3X2;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /522EB8AC;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /522EB8BB;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /522EB701;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = SWITCH-ALPS;
+EndCmp
+
+BeginCmp
+TimeStamp = /522EB710;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = SWITCH-ALPS;
+EndCmp
+
+BeginCmp
+TimeStamp = /520C388B;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = HC-49V;
+EndCmp
+
+EndListe
