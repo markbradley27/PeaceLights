@@ -16,6 +16,7 @@
 
 #define PAUSE  1000     // msec
 #define DELAY    10	// msec
+#define PI     3.14159
 
 // Define the output function, using pin 0 on port b.
 DEFINE_WS2811_FN(WS2811RGB, PORTB, 0)
